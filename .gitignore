@@ -1,0 +1,16 @@
+# Windows 系统垃圾文件
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 临时与备份文件
+*.bak
+*.tmp
+~$*
+
+# EDA 工程编译产物（如后续放入工程文件时按需启用）
+# *.o  *.hex  *.bin  *.elf  Debug/  Objects/
