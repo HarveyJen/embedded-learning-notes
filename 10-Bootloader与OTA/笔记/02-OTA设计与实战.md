@@ -186,4 +186,5 @@ void OnMqttCmd(char *topic, char *payload)
 ## 深入资料（想学得更细再看）
 
 - **官方文档**：ST 应用笔记 AN2557（F1 串口 IAP 官方方案——思路参考，其他芯片找同系列 AN）；做正式产品时再查目标芯片厂商的 bootloader/OTA 应用笔记（同系列 AN）
+- **延伸方向**：Secure Boot 与固件签名（防篡改固件校验/加密启动）——本篇的 CRC 完整性校验是它的前置认知，进阶查目标芯片厂商安全启动文档即可，工控行业一般不强制
 - **书籍/专栏**：RT-Thread 文档站 OTA 手册（双分区、回滚等系统性概念好读物，文档站 rtthread.org）；野火《STM32 HAL 库开发实战指南》IAP 章节
